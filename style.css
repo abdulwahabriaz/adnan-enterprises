@@ -1,0 +1,35 @@
+.navbar {
+    background-color: #1976D2 !important;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding-right: 50px !important;
+}
+
+.nav-link:hover {
+    font-size: 18px;
+    color: brown !important;
+}
+
+.fa-shopping-cart, .fa-user-circle-o {
+    font-size: 28px !important;
+}
+
+.d-block {
+    width: 1400px !important;
+    height: 500px  !important;
+}
+
+@media only screen and (min-width: 770px) {
+    .d-block {
+        width: 100% !important;
+    }
+  }
+
+  @media only screen and (min-width: 300px) {
+    .d-block {
+        width: 100% !important;
+    }
+  }
