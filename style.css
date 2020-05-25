@@ -26,10 +26,59 @@
     .d-block {
         width: 100% !important;
     }
-  }
+}
 
-  @media only screen and (min-width: 300px) {
+@media only screen and (min-width: 300px) {
     .d-block {
         width: 100% !important;
     }
-  }
+}
+
+.card1, .card2, .card3 {
+    display: flex;
+    /* width: 30%;
+    height: 25px; */
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    /* margin: 30px auto; */
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1976D2;
+    width: 300px;
+    text-align: center;
+}
+
+.fa-truck, .fa-phone, .fa-thumbs-up {
+    margin-right: 20px;
+    font-size: 32px !important;
+    color: white;
+}
+
+h5 {
+    font-weight: bold;
+    font-family: serif;
+    color: white;
+}
+
+.maincard {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.newarivales {
+    margin: 70px 50px;
+}
+
+b {
+    color: #1976D2;
+    font-weight: bold;
+    font-family: serif;
+}
+
