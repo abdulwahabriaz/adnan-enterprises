@@ -34,16 +34,16 @@ form {
     
 }
 
-.navbar {
+/* .navbar {
     background-color: brown !important;
-}
+} */
 
-.nav-link:hover {
+/* .nav-link:hover {
     font-size: 18px;
     color: black !important;
-}
+} */
 
-button {
+.bbb {
     margin-left: 200px !important;
     margin-top: 40px;
     background-color: purple !important;
@@ -115,11 +115,14 @@ button {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 525px) {
     .b-a-c-k {
         margin: 100px 0;
         /* text-align: center; */
-        padding-left: 40px;
+    }
+
+    .navbar {
+        width: 100%;
     }
 }
 
