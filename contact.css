@@ -50,6 +50,7 @@ form {
     color: white !important;
     /* font-weight: bold !important; */
     font-family: serif !important;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1125px) {
@@ -128,5 +129,12 @@ form {
     .bbb {
         margin-left: auto;
     }
+}
+
+.details123 {
+    text-decoration: none;
+    color: white !important;
+    /* font-weight: bold !important; */
+    font-family: serif !important;
 }
 
