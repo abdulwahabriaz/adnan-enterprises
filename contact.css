@@ -124,5 +124,9 @@ form {
     .navbar {
         width: 100%;
     }
+
+    .bbb {
+        margin-left: auto;
+    }
 }
 
