@@ -1,0 +1,125 @@
+body {
+    background-image:url(background.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.b-a-c-k {
+    margin: 100px 400px;
+    /* text-align: center; */
+    padding-left: 40px;
+}
+
+label {
+    width: 140px;
+    display: inline-block;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.b {
+    /* float: left;
+    margin-left: 500px;
+    font-weight: bold;
+    font-family: serif;
+    flex-direction: left; */
+    float: left;
+}
+
+.pad {
+
+}
+
+form {
+    
+}
+
+.navbar {
+    background-color: brown !important;
+}
+
+.nav-link:hover {
+    font-size: 18px;
+    color: black !important;
+}
+
+button {
+    margin-left: 200px !important;
+    margin-top: 40px;
+    background-color: purple !important;
+    color: white !important;
+    /* font-weight: bold !important; */
+    font-family: serif !important;
+}
+
+@media only screen and (max-width: 1125px) {
+    .b-a-c-k {
+        margin: 100px 300px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .b-a-c-k {
+        margin: 100px 250px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .b-a-c-k {
+        margin: 100px 200px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .b-a-c-k {
+        margin: 100px 150px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .b-a-c-k {
+        margin: 100px 100px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .b-a-c-k {
+        margin: 100px 50px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .b-a-c-k {
+        margin: 100px 20px;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .b-a-c-k {
+        margin: 100px 10px;
+        /* text-align: center; */    
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .b-a-c-k {
+        margin: 100px 0;
+        /* text-align: center; */
+        padding-left: 40px;
+    }
+}
+
